@@ -20,12 +20,6 @@ header {
     color: #ccc;
 }
 
-@media (max-width: 1000px) {
-    #logo, #title {
-        font-size: 1rem;
-    }
-}
-
 #logo {
     padding-left: 2rem;
     font-size: 2rem;
@@ -37,6 +31,17 @@ header {
     font-size: 2rem;
     margin-right: 8rem;
 }
+
+@media (max-width: 1000px) {
+    #logo, #title {
+        font-size: 1.2rem; 
+    }
+    #title {
+        margin-right: 0.5rem;
+    }
+}
+
+
 
 #text-container {
     width: fit-content;
