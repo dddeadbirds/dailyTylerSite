@@ -20,6 +20,12 @@ header {
     color: #ccc;
 }
 
+@media only screen and(max-width: 1000px){
+    header {
+        font-size: 0.8rem;
+    }
+}
+
 #logo {
     padding-left: 2rem;
     font-size: 2rem;
