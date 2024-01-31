@@ -20,8 +20,8 @@ header {
     color: #ccc;
 }
 
-@media (max-width: 1000px){
-    header {
+@media (max-width: 1000px) {
+    #logo, #title {
         font-size: 1rem;
     }
 }
@@ -33,23 +33,9 @@ header {
     z-index: 1;
 }
 
-#cage {
-    width: 3rem;
-    position: absolute;
-    left: 5.3rem;
-}
-
 #title {
     font-size: 2rem;
     margin-right: 8rem;
-}
-
-#refresh {
-    width: 2rem;
-    margin-right: 3rem
-}
-#refresh img {
-    width: 100%;
 }
 
 #text-container {
